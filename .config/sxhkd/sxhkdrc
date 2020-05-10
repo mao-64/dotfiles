@@ -1,0 +1,80 @@
+super + Return
+	alacritty
+super + ctrl + Return
+	kitty
+super + alt + Return
+	st
+
+super + d
+	dmenu_run
+
+super + x
+	~/.config/my_scripts/rac.sh
+
+super + v ~/.configmy_scrtpts/dpower.sh
+
+super + c
+	rofi -show calc -theme mao
+
+
+
+XF86AudioMicMute
+	pactl set-source-mute 1 toggle
+XF86AudioMute
+	pactl set-sink-mute 0 toggle
+
+XF86MonBrightnessUp
+	xbacklight -inc 10
+XF86MonBrightnessDown
+	xbacklight -dec 10
+
+####################################################################
+
+@XF86LaunchA
+	st -e nvim .config/bspwm/bspwmrc
+@XF86Explorer
+	st -e nvim .config/sxhkd/sxhkdrc
+
+####################################################################
+
+
+super + alt + r
+	st -e ranger
+
+super + alt + f
+	firefox
+
+super + alt + d
+	discord
+
+super + alt + i
+	st -e gotop
+
+super + alt + e
+	emacs
+
+super + alt + p
+	pamac-manager
+
+super + alt + c
+	code
+
+super + alt + b
+	brave
+
+super + alt + s
+	pavucontrol
+
+super + alt + w
+	etcher
+
+super + alt + g
+	gimp
+
+super + alt + m
+	gnome-mines
+
+super + alt + q
+	qutebrowser
+
+
