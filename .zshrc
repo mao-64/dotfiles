@@ -14,7 +14,7 @@ autoload -U colors && colors
 #PS1="%B%{$fg[magenta]%}[%{$fg[cyan]%}%n%{$fg[magenta]%}@%{$fg[cyan]%}%M %{$fg[white]%}%~%{$fg[magenta]%}]%{$reset_color%}$%b "
 PS1="%B%{$fg[white]%}[%n@%M %~]$%b "
 
-RPROMPT="%*1"
+#RPROMPT="%*1"
 
 # Pure Prompt
 #fpath+=$HOME/.zsh/pure

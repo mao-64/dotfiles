@@ -53,3 +53,9 @@ dmenu.foreground: nord4
 dmenu.selbackground : nord1
 dmenu.selforeground : nord4
 
+dwm.normbordercolor: nord0
+dwm.normbgcolor: nord0
+dwm.normfgcolor: nord4
+dwm.selbordercolor: nord3
+dwm.selbgcolor: nord3
+dwm.selfgcolor: nord4

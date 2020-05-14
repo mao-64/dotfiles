@@ -1,9 +1,9 @@
 super + Return
-	alacritty
+	st
 super + ctrl + Return
 	kitty
 super + alt + Return
-	st
+	alacritty
 
 super + d
 	dmenu_run
