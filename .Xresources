@@ -7,55 +7,89 @@
 ! email      development@arcticicestudio.com                    +
 ! copyright  Copyright (C) 2016                                 +
 ! +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-#define nord0 #2E3440
-#define nord1 #3B4252
-#define nord2 #434C5E
-#define nord3 #4C566A
-#define nord4 #D8DEE9
-#define nord5 #E5E9F0
-#define nord6 #ECEFF4
-#define nord7 #8FBCBB
-#define nord8 #88C0D0
-#define nord9 #81A1C1
-#define nord10 #5E81AC
-#define nord11 #BF616A
-#define nord12 #D08770
-#define nord13 #EBCB8B
-#define nord14 #A3BE8C
-#define nord15 #B48EAD
 
-*.foreground:nord4
-*.background: nord0
-*.cursorColor: nord4
+!black
+#define c0 #002b36
+#define c8 #657b83
+
+!red
+#define c1 #dc322f
+#define c9 #dc322f
+
+!green
+#define c2 #859900
+#define c10 #859900
+
+!yellow
+#define c3 #b58900
+#define c11 #b58900
+
+!blue
+#define c4 #268bd2
+#define c12 #268bd2
+
+!magenta
+#define c5 #6c71c4
+#define c13 #6c71c4
+
+!cyan
+#define c6 #2aa198
+#define c14 #2aa198
+
+!white
+#define c7 #93a1a1
+#define c15 #fdf6e3
+
+
+!#define nord0 #2E3440
+!#define nord1 #3B4252
+!#define nord2 #434C5E
+!#define nord3 #4C566A
+!#define nord4 #D8DEE9
+!#define nord5 #E5E9F0
+!#define nord6 #ECEFF4
+!#define nord7 #8FBCBB
+!#define nord8 #88C0D0
+!#define nord9 #81A1C1
+!#define nord10 #5E81AC
+!#define nord11 #BF616A
+!#define nord12 #D08770
+!#define nord13 #EBCB8B
+!#define nord14 #A3BE8C
+!#define nord15 #B48EAD
+
+*.foreground: c4
+*.background: c0
+*.cursorColor: c4
 *fading: 35
-*fadeColor: nord3
+*fadeColor: c3
 
-*.color0: nord1
-*.color1: nord11
-*.color2: nord14
-*.color3: nord13
-*.color4: nord9
-*.color5: nord15
-*.color6: nord8
-*.color7: nord5
-*.color8: nord3
-*.color9: nord11
-*.color10: nord14
-*.color11: nord13
-*.color12: nord9
-*.color13: nord15
-*.color14: nord7
-*.color15: nord6
+*.color0: c0
+*.color1: c1
+*.color2: c2
+*.color3: c3
+*.color4: c4
+*.color5: c5
+*.color6: c6
+*.color7: c7
+*.color8: c8
+*.color9: c9
+*.color10: c10
+*.color11: c11
+*.color12: c12
+*.color13: c13
+*.color14: c14
+*.color15: c15
 
 
-dmenu.background: nord0
-dmenu.foreground: nord4
-dmenu.selbackground : nord1
-dmenu.selforeground : nord4
+dmenu.background: c0
+dmenu.foreground: c15
+dmenu.selbackground : c3
+dmenu.selforeground : c15
 
-dwm.normbordercolor: nord0
-dwm.normbgcolor: nord0
-dwm.normfgcolor: nord4
-dwm.selbordercolor: nord3
-dwm.selbgcolor: nord3
-dwm.selfgcolor: nord4
+dwm.normbordercolor: c15
+dwm.normbgcolor: c0
+dwm.normfgcolor: c15
+dwm.selbordercolor: c3
+dwm.selbgcolor: c3
+dwm.selfgcolor: c15
