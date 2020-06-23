@@ -9,37 +9,40 @@
 ! +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 !black
-#define c0 #002b36
-#define c8 #657b83
+#define c0 #3B4252
+#define c8 #4C566A
 
 !red
-#define c1 #dc322f
-#define c9 #dc322f
+#define c1 #BF616A
+#define c9 #BF616A
 
 !green
-#define c2 #859900
-#define c10 #859900
+#define c2 #A3BE8C
+#define c10 #A3BE8C
 
 !yellow
-#define c3 #b58900
-#define c11 #b58900
+#define c3 #EBCB8B
+#define c11 #EBCB8B
 
 !blue
-#define c4 #268bd2
-#define c12 #268bd2
+#define c4 #81A1C1
+#define c12 #81A1C1
 
 !magenta
-#define c5 #6c71c4
-#define c13 #6c71c4
+#define c5 #B48EAD
+#define c13 #B48EAD
 
 !cyan
-#define c6 #2aa198
-#define c14 #2aa198
+#define c6 #88C0D0
+#define c14 #8FBCBB
 
 !white
-#define c7 #93a1a1
-#define c15 #fdf6e3
+#define c7 #E5E9F0
+#define c15 #ECEFF4
 
+#define fg #D8DEE9
+#define bg #2E3440
+#define cc #D8DEE9
 
 !#define nord0 #2E3440
 !#define nord1 #3B4252
@@ -58,9 +61,9 @@
 !#define nord14 #A3BE8C
 !#define nord15 #B48EAD
 
-*.foreground: c4
-*.background: c0
-*.cursorColor: c4
+*.foreground: fg
+*.background: bg
+*.cursorColor: cc
 *fading: 35
 *fadeColor: c3
 
@@ -84,8 +87,8 @@
 
 dmenu.background: c0
 dmenu.foreground: c15
-dmenu.selbackground : c3
-dmenu.selforeground : c15
+dmenu.selbackground : c15
+dmenu.selforeground : c0
 
 dwm.normbordercolor: c15
 dwm.normbgcolor: c0

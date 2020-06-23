@@ -8,7 +8,7 @@ xset r rate 200 20 &
 volumeicon &
 xrdb .Xresources &
 picom &
-nm-applet &
+nm-applet --no-agent &
 flameshot &
 xfce4-power-manager &
 
@@ -29,7 +29,7 @@ batt1(){
 
 while true; do
 	xsetroot -name "$(dte) | $(batt0) | $(batt1)"
-   sleep 10s    # Update time every minute
+   sleep 1s    # Update time every minute
 done &
 
 exec dwm

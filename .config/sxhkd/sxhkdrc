@@ -38,7 +38,7 @@ XF86MonBrightnessDown
 ####################################################################
 
 
-super + alt + r
+super + r
 	st -e ranger
 
 super + alt + f
@@ -59,9 +59,6 @@ super + alt + p
 super + alt + c
 	code
 
-super + alt + b
-	brave
-
 super + alt + s
 	pavucontrol
 
@@ -73,8 +70,4 @@ super + alt + g
 
 super + alt + m
 	gnome-mines
-
-super + alt + q
-	qutebrowser
-
 
