@@ -6,7 +6,7 @@ super + alt + Return
 	alacritty
 
 super + d
-	dmenu_run
+	dmenu_run -b -y 10 -w 700
 
 super + x
 	~/.config/my_scripts/rac.sh

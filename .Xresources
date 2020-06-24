@@ -61,6 +61,7 @@
 !#define nord14 #A3BE8C
 !#define nord15 #B48EAD
 
+*.font: Source Code Pro:size=11
 *.foreground: fg
 *.background: bg
 *.cursorColor: cc

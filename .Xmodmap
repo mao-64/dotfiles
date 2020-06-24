@@ -1,2 +1,4 @@
 clear Lock
 keycode 66 = Escape
+
+keycode 107 = Super_R
