@@ -1,99 +1,25 @@
-! +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-! title      Nord XResources                                    +
-! project    nord-xresources                                    +
-! version    0.1.0                                              +
-! repository https://github.com/arcticicestudio/nord-xresources +
-! author     Arctic Ice Studio                                  +
-! email      development@arcticicestudio.com                    +
-! copyright  Copyright (C) 2016                                 +
-! +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-!black
-#define c0 #3B4252
-#define c8 #4C566A
-
-!red
-#define c1 #BF616A
-#define c9 #BF616A
-
-!green
-#define c2 #A3BE8C
-#define c10 #A3BE8C
-
-!yellow
-#define c3 #EBCB8B
-#define c11 #EBCB8B
-
-!blue
-#define c4 #81A1C1
-#define c12 #81A1C1
-
-!magenta
-#define c5 #B48EAD
-#define c13 #B48EAD
-
-!cyan
-#define c6 #88C0D0
-#define c14 #8FBCBB
-
-!white
-#define c7 #E5E9F0
-#define c15 #ECEFF4
-
-#define fg #D8DEE9
-#define bg #2E3440
-#define cc #D8DEE9
-
-!#define nord0 #2E3440
-!#define nord1 #3B4252
-!#define nord2 #434C5E
-!#define nord3 #4C566A
-!#define nord4 #D8DEE9
-!#define nord5 #E5E9F0
-!#define nord6 #ECEFF4
-!#define nord7 #8FBCBB
-!#define nord8 #88C0D0
-!#define nord9 #81A1C1
-!#define nord10 #5E81AC
-!#define nord11 #BF616A
-!#define nord12 #D08770
-!#define nord13 #EBCB8B
-!#define nord14 #A3BE8C
-!#define nord15 #B48EAD
-
 *.font: Source Code Pro:size=11
-*.foreground: fg
-*.background: bg
-*.cursorColor: cc
-*fading: 35
-*fadeColor: c3
+*.cursorColor:  #93a1a1
+*.foreground: #F8F8F2
+*.background: #282A36
+*.color0:     #000000
+*.color8:     #4D4D4D
+*.color1:     #FF5555
+*.color9:     #FF6E67
+*.color2:     #50FA7B
+*.color10:    #5AF78E
+*.color3:     #F1FA8C
+*.color11:    #F4F99D
+*.color4:     #BD93F9
+*.color12:    #CAA9FA
+*.color5:     #FF79C6
+*.color13:    #FF92D0
+*.color6:     #8BE9FD
+*.color14:    #9AEDFE
+*.color7:     #BFBFBF
+*.color15:    #E6E6E6
 
-*.color0: c0
-*.color1: c1
-*.color2: c2
-*.color3: c3
-*.color4: c4
-*.color5: c5
-*.color6: c6
-*.color7: c7
-*.color8: c8
-*.color9: c9
-*.color10: c10
-*.color11: c11
-*.color12: c12
-*.color13: c13
-*.color14: c14
-*.color15: c15
-
-
-dmenu.background: c0
-dmenu.foreground: c15
-dmenu.selbackground : c15
-dmenu.selforeground : c0
-
-dwm.normbordercolor: c15
-dwm.normbgcolor: c0
-dwm.normfgcolor: c15
-dwm.selbordercolor: c3
-dwm.selbgcolor: c3
-dwm.selfgcolor: c15
+dmenu.background: #282A36
+dmenu.foreground: #F8F8F2
+dmenu.selbackground : #F8F8F2
+dmenu.selforeground : #282A36
