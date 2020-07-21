@@ -8,6 +8,9 @@ super + alt + Return
 super + d
 	dmenu_run -b -y 10 -w 700
 
+hyper + d
+	dmenu_run -y 10 -w 700
+
 super + x
 	~/.config/my_scripts/rac.sh
 
@@ -24,9 +27,9 @@ XF86AudioMute
 	pactl set-sink-mute 0 toggle
 
 XF86MonBrightnessUp
-	xbacklight -inc 10
+	xbacklight -inc 5
 XF86MonBrightnessDown
-	xbacklight -dec 10
+	xbacklight -dec 5
 
 ####################################################################
 
@@ -51,7 +54,7 @@ super + alt + i
 	st -e gotop
 
 super + alt + e
-	emacs
+	nautilus
 
 super + alt + p
 	pamac-manager
@@ -71,3 +74,5 @@ super + alt + g
 super + alt + m
 	gnome-mines
 
+super + shift + s
+	steam

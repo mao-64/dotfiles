@@ -5,6 +5,7 @@ call plug#begin('~/.local/sharh/nvim/plugged')
 Plug 'vim-airline/vim-airline'
 Plug 'scrooloose/nerdtree'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'terryma/vim-multiple-cursors'
 
 call plug#end()
 

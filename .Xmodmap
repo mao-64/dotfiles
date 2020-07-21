@@ -1,4 +1,9 @@
 clear Lock
+clear Shift
+
+remove Shift = Super_R
+
 keycode 66 = Escape
 
 keycode 107 = Super_R
+keycode 62 = Hyper_R
